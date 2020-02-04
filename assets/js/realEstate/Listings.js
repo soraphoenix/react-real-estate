@@ -31,7 +31,7 @@ export default class Listings extends Component {
                   </div>
                   <div className="col-md-9">
                     <div className="user-details">
-                      <span className="user-name">Nina Smith</span>
+                      <span className="user-name">Tyler Green</span>
                       <span className="post-date">05/05/2018</span>
                     </div>
                     <div className="listing-details">
@@ -70,7 +70,7 @@ export default class Listings extends Component {
                   </div>
                   <div className="col-md-9">
                     <div className="user-details">
-                      <span className="user-name">Nina Smith</span>
+                      <span className="user-name">Tyler Green</span>
                       <span className="post-date">05/05/2018</span>
                     </div>
                     <div className="listing-details">
@@ -155,4 +155,4 @@ export default class Listings extends Component {
   }
 }
 
-//  style={`background: url("https://www.thehousedesigners.com/images/plans/ELC/uploads/1542_Ext_10_med-ml.jpg") no-repeat center center`}
+//  style={`background: url("https://images.tre-marshall.com/react-real-estate/house-10.jpg") no-repeat center center`}

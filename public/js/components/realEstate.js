@@ -1,334 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 100:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var listingsData = [{
-  address: '2034 Grand Ave #K',
-  city: 'Ridgewood',
-  state: 'NY',
-  bedrooms: 3,
-  price: 220000,
-  floorSpace: 2000,
-  extras: ['elevator', 'gym'],
-  homeType: 'Apartment',
-  image: 'https://07f138315bb5e97f9e43-31068357019044cca7c8e84d92de0d99.ssl.cf3.rackcdn.com/1024x768/56587_11491_001.jpg'
-}, {
-  address: '814 Cherry Ln',
-  city: 'Hayward',
-  state: 'CA',
-  bedrooms: 4,
-  price: 740000,
-  floorSpace: 3000,
-  extras: ['swimming pool', 'finished basement'],
-  homeType: 'House',
-  image: 'https://circaoldhouses.com/wp-content/uploads/2017/10/key-hole-house-1.jpg'
-}, {
-  address: '974 Capital Ct',
-  city: 'Springfield',
-  state: 'IL',
-  bedrooms: 2,
-  price: 280000,
-  floorSpace: 2500,
-  extras: ['finished basement', 'gym'],
-  homeType: 'House',
-  image: 'https://www.livehappy.com/sites/default/files/main/blogposts/Downsizing-sized.jpg'
-}, {
-  address: '1823 Adobo Ave #23',
-  city: 'San Francisco',
-  state: 'CA',
-  bedrooms: 2,
-  price: 650000,
-  floorSpace: 1400,
-  extras: ['elevator', 'gym'],
-  homeType: 'Condo',
-  image: 'https://odis.homeaway.com/odis/listing/a3b4bde8-9a6b-481d-91b3-75b422538fd2.c10.jpg'
-}, {
-  address: '8952 Treasure St',
-  city: 'Tampa',
-  state: 'FL',
-  bedrooms: 3,
-  price: 384000,
-  floorSpace: 3500,
-  extras: ['gym'],
-  homeType: 'House',
-  image: 'https://cdn.houseplans.com/product/q5qkhirat4bcjrr4rpg9fk3q94/w800x533.jpg?v=8'
-}, {
-  address: '947 Railway Blvd #28',
-  city: 'Atlanta',
-  state: 'GA',
-  bedrooms: 2,
-  price: 250000,
-  floorSpace: 1500,
-  extras: ['elevator', 'gym'],
-  homeType: 'Apartment',
-  image: 'https://t-ec.bstatic.com/images/hotel/max1024x768/828/82898480.jpg'
-}, {
-  address: '777 Reels Ct #7',
-  city: 'Las Vegas',
-  state: 'NV',
-  bedrooms: 1,
-  price: 180000,
-  floorSpace: 1200,
-  extras: ['elevator', 'gym', 'pool'],
-  homeType: 'Apartment',
-  image: 'https://images1.apartments.com/i2/psOUlXLM0947VmtNQEvG7HKEu2SdgHG7oh4jsL5J2OM/111/capella-at-rancho-del-oro-luxury-apartment-oceanside-ca-primary-photo.jpg'
-}, {
-  address: '3895 Sunshine Dr',
-  city: 'Tempe',
-  state: 'AZ',
-  bedrooms: 2,
-  price: 190000,
-  floorSpace: 1500,
-  extras: ['elevator', 'gym', 'pool'],
-  homeType: 'Condo',
-  image: 'https://www.allstate.com/resources/Allstate/images/tools-and-resources/condo/apartment-complex_iStock_680x402.jpg?v=431b92de-e647-694d-5c76-bb19601658f9'
-}];
-
-exports.default = listingsData;
-
-/***/ }),
-
-/***/ 102:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(16);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(33);
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-var _Header = __webpack_require__(98);
-
-var _Header2 = _interopRequireDefault(_Header);
-
-var _Filter = __webpack_require__(97);
-
-var _Filter2 = _interopRequireDefault(_Filter);
-
-var _Listings = __webpack_require__(99);
-
-var _Listings2 = _interopRequireDefault(_Listings);
-
-var _listingsData = __webpack_require__(100);
-
-var _listingsData2 = _interopRequireDefault(_listingsData);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var App = function (_Component) {
-  _inherits(App, _Component);
-
-  function App() {
-    _classCallCheck(this, App);
-
-    var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this));
-
-    _this.state = {
-      listingsData: _listingsData2.default,
-      city: 'All',
-      homeType: 'All',
-      bedrooms: '0',
-      min_price: 0,
-      max_price: 10000000,
-      min_floor_space: 0,
-      max_floor_space: 50000,
-      elevator: false,
-      swimming_pool: false,
-      finished_basement: false,
-      gym: false,
-      filteredData: _listingsData2.default,
-      populateFormsData: '',
-      sortby: 'price-asc',
-      view: 'box',
-      search: ''
-    };
-
-    _this.change = _this.change.bind(_this);
-    _this.filteredData = _this.filteredData.bind(_this);
-    _this.populateForms = _this.populateForms.bind(_this);
-    _this.changeView = _this.changeView.bind(_this);
-    return _this;
-  }
-
-  _createClass(App, [{
-    key: 'componentWillMount',
-    value: function componentWillMount() {
-
-      var listingsData = this.state.listingsData.sort(function (a, b) {
-        return a.price - b.price;
-      });
-
-      this.setState({
-        listingsData: listingsData
-      });
-    }
-  }, {
-    key: 'change',
-    value: function change(event) {
-      var _this2 = this;
-
-      var name = event.target.name;
-      var value = event.target.type === 'checkbox' ? event.target.checked : event.target.value;
-
-      this.setState(_defineProperty({}, name, value), function () {
-        console.log(_this2.state);
-        _this2.filteredData();
-      });
-    }
-  }, {
-    key: 'changeView',
-    value: function changeView(viewName) {
-      this.setState({
-        view: viewName
-      });
-    }
-  }, {
-    key: 'filteredData',
-    value: function filteredData() {
-      var _this3 = this;
-
-      var newData = this.state.listingsData.filter(function (item) {
-        return item.price >= _this3.state.min_price && item.price <= _this3.state.max_price && item.floorSpace >= _this3.state.min_floor_space && item.floorSpace <= _this3.state.max_floor_space && item.bedrooms >= _this3.state.bedrooms;
-      });
-
-      if (this.state.city != "All") {
-        newData = newData.filter(function (item) {
-          return item.city == _this3.state.city;
-        });
-      }
-
-      if (this.state.homeType != "All") {
-        newData = newData.filter(function (item) {
-          return item.homeType == _this3.state.homeType;
-        });
-      }
-
-      if (this.state.sortby == 'price-asc') {
-        newData = newData.sort(function (a, b) {
-          return a.price - b.price;
-        });
-      }
-
-      if (this.state.sortby == 'price-dsc') {
-        newData = newData.sort(function (a, b) {
-          return b.price - a.price;
-        });
-      }
-
-      if (this.state.search != '') {
-        newData = newData.filter(function (item) {
-          var city = item.city.toLowerCase();
-          var searchText = _this3.state.search.toLowerCase();
-          var n = city.match(searchText);
-
-          if (n != null) {
-            return true;
-          }
-        });
-      }
-
-      this.setState({
-        filteredData: newData
-      });
-    }
-  }, {
-    key: 'populateForms',
-    value: function populateForms() {
-      var _this4 = this;
-
-      // city
-      var cities = this.state.listingsData.map(function (item) {
-        return item.city;
-      });
-
-      cities = new Set(cities);
-      cities = [].concat(_toConsumableArray(cities));
-
-      cities = cities.sort();
-
-      // homeType
-      var homeTypes = this.state.listingsData.map(function (item) {
-        return item.homeType;
-      });
-
-      homeTypes = new Set(homeTypes);
-      homeTypes = [].concat(_toConsumableArray(homeTypes));
-
-      homeTypes = homeTypes.sort();
-
-      // bedrooms
-      var bedrooms = this.state.listingsData.map(function (item) {
-        return item.bedrooms;
-      });
-
-      bedrooms = new Set(bedrooms);
-      bedrooms = [].concat(_toConsumableArray(bedrooms));
-
-      bedrooms = bedrooms.sort();
-
-      this.setState({
-        populateFormsData: {
-          cities: cities,
-          homeTypes: homeTypes,
-          bedrooms: bedrooms
-        }
-      }, function () {
-        console.log(_this4.state);
-      });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(_Header2.default, null),
-        _react2.default.createElement(
-          'section',
-          { id: 'content-area' },
-          _react2.default.createElement(_Filter2.default, { change: this.change, globalState: this.state, populateAction: this.populateForms }),
-          _react2.default.createElement(_Listings2.default, { listingsData: this.state.filteredData, change: this.change, globalState: this.state, changeView: this.changeView })
-        )
-      );
-    }
-  }]);
-
-  return App;
-}(_react.Component);
-
-var app = document.getElementById('app');
-
-_reactDom2.default.render(_react2.default.createElement(App, null), app);
-
-// Make the checkboxes work
-
-/***/ }),
-
-/***/ 97:
+/***/ 101:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -557,7 +229,7 @@ exports.default = Filter;
 
 /***/ }),
 
-/***/ 98:
+/***/ 102:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -644,7 +316,7 @@ exports.default = Header;
 
 /***/ }),
 
-/***/ 99:
+/***/ 103:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -728,7 +400,7 @@ var Listings = function (_Component) {
                       _react2.default.createElement(
                         'span',
                         { className: 'user-name' },
-                        'Nina Smith'
+                        'Tyler Green'
                       ),
                       _react2.default.createElement(
                         'span',
@@ -823,7 +495,7 @@ var Listings = function (_Component) {
                       _react2.default.createElement(
                         'span',
                         { className: 'user-name' },
-                        'Nina Smith'
+                        'Tyler Green'
                       ),
                       _react2.default.createElement(
                         'span',
@@ -996,11 +668,339 @@ var Listings = function (_Component) {
   return Listings;
 }(_react.Component);
 
-//  style={`background: url("https://www.thehousedesigners.com/images/plans/ELC/uploads/1542_Ext_10_med-ml.jpg") no-repeat center center`}
+//  style={`background: url("https://images.tre-marshall.com/react-real-estate/house-10.jpg") no-repeat center center`}
 
 
 exports.default = Listings;
 
+/***/ }),
+
+/***/ 104:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var listingsData = [{
+  address: '8594 Birchwood Ave #38',
+  city: 'Albany',
+  state: 'NY',
+  bedrooms: 3,
+  price: 220000,
+  floorSpace: 2000,
+  extras: ['elevator', 'gym'],
+  homeType: 'Apartment',
+  image: 'https://images.tre-marshall.com/react-real-estate/house-01.jpg'
+}, {
+  address: '814 Cherry Ln',
+  city: 'Hayward',
+  state: 'CA',
+  bedrooms: 4,
+  price: 740000,
+  floorSpace: 3000,
+  extras: ['swimming pool', 'finished basement'],
+  homeType: 'House',
+  image: 'https://images.tre-marshall.com/react-real-estate/house-07.jpg'
+}, {
+  address: '974 Capital Ct',
+  city: 'Springfield',
+  state: 'IL',
+  bedrooms: 2,
+  price: 280000,
+  floorSpace: 2500,
+  extras: ['finished basement', 'gym'],
+  homeType: 'House',
+  image: 'https://images.tre-marshall.com/react-real-estate/house-06.jpg'
+}, {
+  address: '1823 Adobo Ave #23',
+  city: 'San Francisco',
+  state: 'CA',
+  bedrooms: 2,
+  price: 650000,
+  floorSpace: 1400,
+  extras: ['elevator', 'gym'],
+  homeType: 'Condo',
+  image: 'https://images.tre-marshall.com/react-real-estate/house-03.jpg'
+}, {
+  address: '8952 Treasure St',
+  city: 'Tampa',
+  state: 'FL',
+  bedrooms: 3,
+  price: 384000,
+  floorSpace: 3500,
+  extras: ['gym'],
+  homeType: 'House',
+  image: 'https://images.tre-marshall.com/react-real-estate/house-08.jpg'
+}, {
+  address: '947 Railway Blvd #28',
+  city: 'Atlanta',
+  state: 'GA',
+  bedrooms: 2,
+  price: 250000,
+  floorSpace: 1500,
+  extras: ['elevator', 'gym'],
+  homeType: 'Apartment',
+  image: 'https://images.tre-marshall.com/react-real-estate/house-02.jpg'
+}, {
+  address: '777 Reels Ct #7',
+  city: 'Las Vegas',
+  state: 'NV',
+  bedrooms: 1,
+  price: 180000,
+  floorSpace: 1200,
+  extras: ['elevator', 'gym', 'pool'],
+  homeType: 'Apartment',
+  image: 'https://images.tre-marshall.com/react-real-estate/house-05.jpg'
+}, {
+  address: '3895 Sunshine Dr',
+  city: 'Tempe',
+  state: 'AZ',
+  bedrooms: 2,
+  price: 190000,
+  floorSpace: 1500,
+  extras: ['elevator', 'gym', 'pool'],
+  homeType: 'Condo',
+  image: 'https://images.tre-marshall.com/react-real-estate/house-04.jpg'
+}];
+
+exports.default = listingsData;
+
+/***/ }),
+
+/***/ 107:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(16);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(34);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _Header = __webpack_require__(102);
+
+var _Header2 = _interopRequireDefault(_Header);
+
+var _Filter = __webpack_require__(101);
+
+var _Filter2 = _interopRequireDefault(_Filter);
+
+var _Listings = __webpack_require__(103);
+
+var _Listings2 = _interopRequireDefault(_Listings);
+
+var _listingsData = __webpack_require__(104);
+
+var _listingsData2 = _interopRequireDefault(_listingsData);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var App = function (_Component) {
+  _inherits(App, _Component);
+
+  function App() {
+    _classCallCheck(this, App);
+
+    var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this));
+
+    _this.state = {
+      listingsData: _listingsData2.default,
+      city: 'All',
+      homeType: 'All',
+      bedrooms: '0',
+      min_price: 0,
+      max_price: 10000000,
+      min_floor_space: 0,
+      max_floor_space: 50000,
+      elevator: false,
+      swimming_pool: false,
+      finished_basement: false,
+      gym: false,
+      filteredData: _listingsData2.default,
+      populateFormsData: '',
+      sortby: 'price-asc',
+      view: 'box',
+      search: ''
+    };
+
+    _this.change = _this.change.bind(_this);
+    _this.filteredData = _this.filteredData.bind(_this);
+    _this.populateForms = _this.populateForms.bind(_this);
+    _this.changeView = _this.changeView.bind(_this);
+    return _this;
+  }
+
+  _createClass(App, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+
+      var listingsData = this.state.listingsData.sort(function (a, b) {
+        return a.price - b.price;
+      });
+
+      this.setState({
+        listingsData: listingsData
+      });
+    }
+  }, {
+    key: 'change',
+    value: function change(event) {
+      var _this2 = this;
+
+      var name = event.target.name;
+      var value = event.target.type === 'checkbox' ? event.target.checked : event.target.value;
+
+      this.setState(_defineProperty({}, name, value), function () {
+        console.log(_this2.state);
+        _this2.filteredData();
+      });
+    }
+  }, {
+    key: 'changeView',
+    value: function changeView(viewName) {
+      this.setState({
+        view: viewName
+      });
+    }
+  }, {
+    key: 'filteredData',
+    value: function filteredData() {
+      var _this3 = this;
+
+      var newData = this.state.listingsData.filter(function (item) {
+        return item.price >= _this3.state.min_price && item.price <= _this3.state.max_price && item.floorSpace >= _this3.state.min_floor_space && item.floorSpace <= _this3.state.max_floor_space && item.bedrooms >= _this3.state.bedrooms;
+      });
+
+      if (this.state.city != "All") {
+        newData = newData.filter(function (item) {
+          return item.city == _this3.state.city;
+        });
+      }
+
+      if (this.state.homeType != "All") {
+        newData = newData.filter(function (item) {
+          return item.homeType == _this3.state.homeType;
+        });
+      }
+
+      if (this.state.sortby == 'price-asc') {
+        newData = newData.sort(function (a, b) {
+          return a.price - b.price;
+        });
+      }
+
+      if (this.state.sortby == 'price-dsc') {
+        newData = newData.sort(function (a, b) {
+          return b.price - a.price;
+        });
+      }
+
+      if (this.state.search != '') {
+        newData = newData.filter(function (item) {
+          var city = item.city.toLowerCase();
+          var searchText = _this3.state.search.toLowerCase();
+          var n = city.match(searchText);
+
+          if (n != null) {
+            return true;
+          }
+        });
+      }
+
+      this.setState({
+        filteredData: newData
+      });
+    }
+  }, {
+    key: 'populateForms',
+    value: function populateForms() {
+      var _this4 = this;
+
+      // city
+      var cities = this.state.listingsData.map(function (item) {
+        return item.city;
+      });
+
+      cities = new Set(cities);
+      cities = [].concat(_toConsumableArray(cities));
+
+      cities = cities.sort();
+
+      // homeType
+      var homeTypes = this.state.listingsData.map(function (item) {
+        return item.homeType;
+      });
+
+      homeTypes = new Set(homeTypes);
+      homeTypes = [].concat(_toConsumableArray(homeTypes));
+
+      homeTypes = homeTypes.sort();
+
+      // bedrooms
+      var bedrooms = this.state.listingsData.map(function (item) {
+        return item.bedrooms;
+      });
+
+      bedrooms = new Set(bedrooms);
+      bedrooms = [].concat(_toConsumableArray(bedrooms));
+
+      bedrooms = bedrooms.sort();
+
+      this.setState({
+        populateFormsData: {
+          cities: cities,
+          homeTypes: homeTypes,
+          bedrooms: bedrooms
+        }
+      }, function () {
+        console.log(_this4.state);
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_Header2.default, null),
+        _react2.default.createElement(
+          'section',
+          { id: 'content-area' },
+          _react2.default.createElement(_Filter2.default, { change: this.change, globalState: this.state, populateAction: this.populateForms }),
+          _react2.default.createElement(_Listings2.default, { listingsData: this.state.filteredData, change: this.change, globalState: this.state, changeView: this.changeView })
+        )
+      );
+    }
+  }]);
+
+  return App;
+}(_react.Component);
+
+var app = document.getElementById('app');
+
+_reactDom2.default.render(_react2.default.createElement(App, null), app);
+
+// Make the checkboxes work
+
 /***/ })
 
-},[102]);
+},[107]);

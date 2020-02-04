@@ -1,7 +1,7 @@
 var listingsData = [
   {
-    address: '2034 Grand Ave #K',
-    city: 'Ridgewood',
+    address: '8594 Birchwood Ave #38',
+    city: 'Albany',
     state: 'NY',
     bedrooms: 3,
     price: 220000,
@@ -11,7 +11,7 @@ var listingsData = [
       'gym'
     ],
     homeType: 'Apartment',
-    image: 'https://07f138315bb5e97f9e43-31068357019044cca7c8e84d92de0d99.ssl.cf3.rackcdn.com/1024x768/56587_11491_001.jpg'
+    image: 'https://images.tre-marshall.com/react-real-estate/house-01.jpg'
   },
   {
     address: '814 Cherry Ln',
@@ -25,7 +25,7 @@ var listingsData = [
       'finished basement'
     ],
     homeType: 'House',
-    image: 'https://circaoldhouses.com/wp-content/uploads/2017/10/key-hole-house-1.jpg'
+    image: 'https://images.tre-marshall.com/react-real-estate/house-07.jpg'
   },
   {
     address: '974 Capital Ct',
@@ -39,7 +39,7 @@ var listingsData = [
       'gym'
     ],
     homeType: 'House',
-    image: 'https://www.livehappy.com/sites/default/files/main/blogposts/Downsizing-sized.jpg'
+    image: 'https://images.tre-marshall.com/react-real-estate/house-06.jpg'
   },
   {
     address: '1823 Adobo Ave #23',
@@ -53,7 +53,7 @@ var listingsData = [
       'gym',
     ],
     homeType: 'Condo',
-    image: 'https://odis.homeaway.com/odis/listing/a3b4bde8-9a6b-481d-91b3-75b422538fd2.c10.jpg'
+    image: 'https://images.tre-marshall.com/react-real-estate/house-03.jpg'
   },
   {
     address: '8952 Treasure St',
@@ -66,7 +66,7 @@ var listingsData = [
       'gym',
     ],
     homeType: 'House',
-    image: 'https://cdn.houseplans.com/product/q5qkhirat4bcjrr4rpg9fk3q94/w800x533.jpg?v=8'
+    image: 'https://images.tre-marshall.com/react-real-estate/house-08.jpg'
   },
   {
     address: '947 Railway Blvd #28',
@@ -80,7 +80,7 @@ var listingsData = [
       'gym'
     ],
     homeType: 'Apartment',
-    image: 'https://t-ec.bstatic.com/images/hotel/max1024x768/828/82898480.jpg'
+    image: 'https://images.tre-marshall.com/react-real-estate/house-02.jpg'
   },
   {
     address: '777 Reels Ct #7',
@@ -95,7 +95,7 @@ var listingsData = [
       'pool'
     ],
     homeType: 'Apartment',
-    image: 'https://images1.apartments.com/i2/psOUlXLM0947VmtNQEvG7HKEu2SdgHG7oh4jsL5J2OM/111/capella-at-rancho-del-oro-luxury-apartment-oceanside-ca-primary-photo.jpg'
+    image: 'https://images.tre-marshall.com/react-real-estate/house-05.jpg'
   },
   {
     address: '3895 Sunshine Dr',
@@ -110,7 +110,7 @@ var listingsData = [
       'pool'
     ],
     homeType: 'Condo',
-    image: 'https://www.allstate.com/resources/Allstate/images/tools-and-resources/condo/apartment-complex_iStock_680x402.jpg?v=431b92de-e647-694d-5c76-bb19601658f9'
+    image: 'https://images.tre-marshall.com/react-real-estate/house-04.jpg'
   }
 ]
 

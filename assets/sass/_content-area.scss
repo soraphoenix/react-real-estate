@@ -139,7 +139,7 @@
       color: white;
       padding: 15px;
       position: relative;
-      background: url("https://www.thehousedesigners.com/images/plans/ELC/uploads/1542_Ext_10_med-ml.jpg") no-repeat center center;
+      background: url("https://images.tre-marshall.com/react-real-estate/house-10.jpg") no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -199,7 +199,7 @@
           border-radius: 50%;
           border: 2px solid white;
           display: inline-block;
-          background: url("https://www.thehousedesigners.com/images/plans/ELC/uploads/1542_Ext_10_med-ml.jpg") no-repeat center center;
+          background: url("https://images.tre-marshall.com/react-real-estate/user-img.jpg") no-repeat center center;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -273,7 +273,7 @@
   border-radius: 5px;
   text-align: center;
   max-width: 150px;
-  transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out; // I need to come back and look at this
   &:hover {
     background: $pink;
     cursor: pointer;
@@ -308,6 +308,6 @@
 
 
 
-// ***change col-md classes to a different name***
+// ***change col-md classes to a different name*** -- Probably not, they're a part of a framework being used
 
-// dummy background reference: https://www.thehousedesigners.com/images/plans/ELC/uploads/1542_Ext_10_med-ml.jpg
+// dummy background reference: https://images.tre-marshall.com/react-real-estate/house-10.jpg

@@ -1,11 +1,11 @@
 {
-  "name": "CodingPhase-StarterKit",
+  "name": "React Real Estate",
   "version": "1.0.0",
-  "description": "Super Cool Framework",
+  "description": "Front end real estate site UI",
   "main": "index.js",
-  "author": "joe santos garcia",
+  "author": "Tracy Marshall",
   "license": "MIT",
-  "homepage": "http://rocky.codingphase.com/",
+  "homepage": "https://real-estate.tre-marshall.com",
   "dependencies": {
     "axios": "^0.16.1",
     "babel-core": "^6.24.1",
@@ -26,6 +26,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.9",
     "html-webpack-plugin": "^2.28.0",
+    "mercury": "^14.1.0",
     "node-sass": "^4.5.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
